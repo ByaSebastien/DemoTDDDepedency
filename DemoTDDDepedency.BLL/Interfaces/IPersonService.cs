@@ -9,8 +9,8 @@ namespace DemoTDDDepedency.BLL.Interfaces
 {
     public interface IPersonService
     {
-        Person GetById(int id);
-        Person GetByName(string name);
+        Person? GetById(int id);
+        Person? GetByName(string name);
         IEnumerable<Person> GetAll();
         int insert(Person person);
         int update(int id, Person person);

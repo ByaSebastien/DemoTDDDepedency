@@ -9,6 +9,6 @@ namespace DemoTDDDepedency.DAL.Interfaces
 {
     public interface IPersonRepository : IBaseRepository<int,Person>
     {
-        Person GetByName(string name);
+        Person? GetByName(string name);
     }
 }

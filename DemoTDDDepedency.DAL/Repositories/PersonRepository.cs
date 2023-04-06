@@ -15,7 +15,7 @@ namespace DemoTDDDepedency.DAL.Repositories
             throw new NotImplementedException();
         }
 
-        public Person GetByName(string name)
+        public Person? GetByName(string name)
         {
             throw new NotImplementedException();
         }

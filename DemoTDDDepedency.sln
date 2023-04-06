@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTDDDepedency.DAL", "Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTDDDepedency.Models", "DemoTDDDepedency.Models\DemoTDDDepedency.Models.csproj", "{2758062C-CD18-459F-B488-89F8D44ED299}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTDDDepedency.BLL.Test", "DemoTDDDepedency.BLL.Test\DemoTDDDepedency.BLL.Test.csproj", "{AC123A97-3959-4B1D-82D4-194C5ACF811F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2758062C-CD18-459F-B488-89F8D44ED299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2758062C-CD18-459F-B488-89F8D44ED299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2758062C-CD18-459F-B488-89F8D44ED299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC123A97-3959-4B1D-82D4-194C5ACF811F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC123A97-3959-4B1D-82D4-194C5ACF811F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC123A97-3959-4B1D-82D4-194C5ACF811F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC123A97-3959-4B1D-82D4-194C5ACF811F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

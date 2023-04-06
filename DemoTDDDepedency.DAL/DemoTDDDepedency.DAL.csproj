@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Interfaces\IPersonRepository.cs~RF12a1042.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DemoTDDDepedency.Models\DemoTDDDepedency.Models.csproj" />
   </ItemGroup>
 
